@@ -1,0 +1,6 @@
+{{ obj.data.message }}
+<br/>
+{% for obj in obj.data.cart_obj.product.all %}
+{{ obj.product_name }}
+</br>
+{% endfor %}
